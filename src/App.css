@@ -1,0 +1,36 @@
+/* App.css */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #bce0e7;
+    min-height: 100vh;
+  }
+  
+  .product-list,
+  .cart {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 40%;
+  }
+  
+  h2 {
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+    .product-list,
+    .cart {
+    margin: 1rem;
+      width: 80%;
+    }
+  
+  }
+  
